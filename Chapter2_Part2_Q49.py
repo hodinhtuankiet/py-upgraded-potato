@@ -1,9 +1,16 @@
-def factorial(n):
-    result = 1
-    for i in range(1, n + 1):
-        result *= i
-    return result
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
 
-number = int(input("Enter a number: "))
-fact = factorial(number)
-print(fact)
+# Nhập số nguyên từ người dùng
+num = int(input("Enter a number: "))
+
+# Kiểm tra và hiển thị kết quả
+if is_prime(num):
+    print(f"{num} is a prime number.")
+else:
+    print(f"{num} is not a prime number.")
