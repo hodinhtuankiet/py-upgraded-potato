@@ -1,0 +1,5 @@
+Duyệt qua từng số từ 100 đến 300.
+Chuyển số đó thành chuỗi để truy cập từng chữ số.
+Kiểm tra xem tất cả chữ số đều là số chẵn.
+Nếu đúng, thêm vào danh sách.
+Cuối cùng, in ra kết quả bằng cách nối danh sách với dấu phẩy.

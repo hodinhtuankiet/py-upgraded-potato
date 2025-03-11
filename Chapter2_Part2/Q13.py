@@ -1,6 +1,6 @@
 lines = []
 while True:
-   s = input()
+   s = input("Enter a string: ")
    if s:
       lines.append(s.upper())
    else:
